@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">StatisticsApplication</string>
+    <string name="timeLabelHomeFrag">Час:</string>
+    <string name="dateLabelHomeFrag">Дата:</string>
+    <string name="btnCosts">Витрати на паливо</string>
+    <string name="btnIncome">Дохід</string>
+    <string name="labelHeight">Ширина</string>
+    <string name="labelWeidth">Довжина</string>
+    <string name="labelArea">Площа</string>
+    <string name="labelSumm">Сумма</string>
+    <string name="labelPriceOne">Ціна за 0,01 га</string>
+    <string name="btnCalculate">Обрахувати</string>
+    <string name="btnAdd">Записати</string>
 </resources>
