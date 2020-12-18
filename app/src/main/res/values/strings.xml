@@ -12,4 +12,6 @@
     <string name="btnCalculate">Обрахувати</string>
     <string name="btnAdd">Записати</string>
     <string name="btnOpen">Відкрити розрахункову панель</string>
+    <string name="labelPriceTwo">Ціна за 1 л</string>
+    <string name="labeLiter">Кількість літрів</string>
 </resources>
