@@ -7,9 +7,9 @@ public class CostsTwo {
     @PrimaryKey(autoGenerate = true)
     private long id;
 
-    private long area;
+    private String area;
 
-    private long summ;
+    private String summ;
 
     public long getId() {
         return id;
@@ -19,19 +19,19 @@ public class CostsTwo {
         this.id = id;
     }
 
-    public long getArea() {
+    public String getArea() {
         return area;
     }
 
-    public void setArea(long area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public long getSumm() {
+    public String getSumm() {
         return summ;
     }
 
-    public void setSumm(long summ) {
+    public void setSumm(String summ) {
         this.summ = summ;
     }
 }

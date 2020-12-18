@@ -9,7 +9,7 @@ public class CostsOne {
 
     private String dat;
 
-    private long summ;
+    private String summ;
 
     public long getId() {
         return id;
@@ -27,11 +27,11 @@ public class CostsOne {
         this.dat = dat;
     }
 
-    public long getSumm() {
+    public String getSumm() {
         return summ;
     }
 
-    public void setSumm(long summ) {
+    public void setSumm(String summ) {
         this.summ = summ;
     }
 }
