@@ -1,0 +1,13 @@
+package ua.application.statisticsapplication;
+
+
+import androidx.room.Database;
+
+@Database(entities = {Income.class, CostsOne.class, CostsTwo.class}, version = 1)
+public abstract class AppDatabase {
+    public abstract IncomeDao incomeDao();
+
+    public abstract CostsOneDao costsOneDao();
+
+    public abstract CostsTwoDao costsTwoDao();
+}
