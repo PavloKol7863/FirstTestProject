@@ -16,4 +16,6 @@
     <string name="labeLiter">Кількість літрів</string>
     <string name="labelCostsScreen">Дохід</string>
     <string name="labelIncomeScreen">Витрати</string>
+    <string name="labelCostsOne">№ | Дата | Сумма</string>
+    <string name="lableCostsTwo">№ | Площа | Сумма</string>
 </resources>

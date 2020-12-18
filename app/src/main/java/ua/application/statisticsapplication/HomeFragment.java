@@ -63,7 +63,7 @@ float area, sum;
                 break;
             case R.id.btnCalculateSum:
                 if(!edtArea.getText().equals("") && !edtPrice.getText().equals("")){
-                    sum = Long.parseLong(String.valueOf(edtArea.getText()))*Long.parseLong(String.valueOf(edtPrice.getText()));
+                    sum = (float)Float.parseFloat(String.valueOf(edtArea.getText()))*Long.parseLong(String.valueOf(edtPrice.getText()));
                     edtSumm.setText(String.valueOf(sum));
                 }
                 break;
