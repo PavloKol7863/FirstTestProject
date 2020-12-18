@@ -70,7 +70,7 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnCalculateArea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnCalculate" />
@@ -110,7 +110,7 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnCalculateSum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnCalculate" />
@@ -123,7 +123,7 @@
                 android:inputType="numberDecimal" />
 
             <EditText
-                android:id="@+id/edtPriceOne"
+                android:id="@+id/edtPriceArea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="6"
@@ -140,7 +140,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnAddCosts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btnAdd" />
