@@ -9,8 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StatisticsApplication">
-        <activity android:name=".CostsActivity"></activity>
-        <activity android:name=".IncomeActivity" />
+        <activity android:name=".CostsActivity"
+            android:label="@string/labelCostsScreen">
+            <intent-filter>
+                <action android:name="apllication.open.costsscreen"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".IncomeActivity"
+            android:label="@string/labelIncomeScreen">
+            <intent-filter>
+                <action android:name="application.open.incomescreen"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

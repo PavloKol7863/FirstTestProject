@@ -44,15 +44,6 @@
         android:layout_marginTop="5dp">
 
         <Button
-            android:id="@+id/btnCosts"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:onClick="onClick"
-            android:text="@string/btnCosts" />
-
-        <Button
             android:id="@+id/btnIncome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,6 +51,15 @@
             android:layout_weight="1"
             android:onClick="onClick"
             android:text="@string/btnIncome" />
+
+        <Button
+            android:id="@+id/btnCosts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/btnCosts" />
     </LinearLayout>
 
     <Button
@@ -74,7 +74,6 @@
         android:id="@+id/frgmCont"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
     </FrameLayout>
 
 

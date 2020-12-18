@@ -2,8 +2,8 @@
     <string name="app_name">StatisticsApplication</string>
     <string name="timeLabelHomeFrag">Час:</string>
     <string name="dateLabelHomeFrag">Дата:</string>
-    <string name="btnCosts">Витрати на паливо</string>
-    <string name="btnIncome">Дохід</string>
+    <string name="btnIncome">Витрати на паливо</string>
+    <string name="btnCosts">Дохід</string>
     <string name="labelHeight">Ширина</string>
     <string name="labelWeidth">Довжина</string>
     <string name="labelArea">Площа</string>
@@ -14,4 +14,6 @@
     <string name="btnOpen">Відкрити розрахункову панель</string>
     <string name="labelPriceTwo">Ціна за 1 л</string>
     <string name="labeLiter">Кількість літрів</string>
+    <string name="labelCostsScreen">Дохід</string>
+    <string name="labelIncomeScreen">Витрати</string>
 </resources>

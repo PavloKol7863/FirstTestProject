@@ -18,7 +18,7 @@
             android:id="@+id/edtDateIncome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="8"
+            android:ems="6"
             android:inputType="date" />
     </TableRow>
 
@@ -36,7 +36,7 @@
             android:id="@+id/edtNumLiter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="8"
+            android:ems="5"
             android:inputType="numberDecimal" />
 
         <Button
@@ -60,7 +60,7 @@
             android:id="@+id/edtPriceTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="8"
+            android:ems="5"
             android:inputType="numberDecimal" />
 
         <Button
@@ -84,7 +84,7 @@
             android:id="@+id/edtSunFuel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="8"
+            android:ems="5"
             android:inputType="numberDecimal" />
     </TableRow>
 </TableLayout>
