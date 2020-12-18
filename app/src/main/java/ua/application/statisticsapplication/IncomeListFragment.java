@@ -28,8 +28,6 @@ public class IncomeListFragment extends ListFragment {
         adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayList);
         if (incomeList.size() != 0)
             setListAdapter(adapter);
-        else
-            Toast.makeText(getContext(), "Don't found data", Toast.LENGTH_SHORT).show();
     }
     public void createOutput(){
         arrayList = new ArrayList<>();

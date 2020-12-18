@@ -10,9 +10,9 @@ public class Income {
 
     private String dat;
 
-    private long numLiter;
+    private String numLiter;
 
-    private long summ;
+    private String summ;
 
     public long getId() {
         return id;
@@ -30,19 +30,19 @@ public class Income {
         this.dat = dat;
     }
 
-    public long getNumLiter() {
+    public String getNumLiter() {
         return numLiter;
     }
 
-    public void setNumLiter(long numLiter) {
+    public void setNumLiter(String numLiter) {
         this.numLiter = numLiter;
     }
 
-    public long getSumm() {
+    public String getSumm() {
         return summ;
     }
 
-    public void setSumm(long summ) {
+    public void setSumm(String summ) {
         this.summ = summ;
     }
 }
