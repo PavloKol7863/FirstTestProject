@@ -8,7 +8,8 @@
     <string name="labelWeidth">Довжина</string>
     <string name="labelArea">Площа</string>
     <string name="labelSumm">Сумма</string>
-    <string name="labelPriceOne">Ціна за 0,01 га</string>
+    <string name="labelPriceOne">Ціна за 0,01га</string>
     <string name="btnCalculate">Обрахувати</string>
     <string name="btnAdd">Записати</string>
+    <string name="btnOpen">Відкрити розрахункову панель</string>
 </resources>
